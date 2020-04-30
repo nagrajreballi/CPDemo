@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 import com.cpt.qa.base.TestBase;
 import com.cpt.qa.pages.LoginPage;
 import com.cpt.qa.util.TestUtil;
-
+//added
 public class TC01_LoginPageTest extends TestBase {
 
 	LoginPage loginPage;
