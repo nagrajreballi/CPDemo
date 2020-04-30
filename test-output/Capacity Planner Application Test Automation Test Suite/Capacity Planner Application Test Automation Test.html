@@ -1,0 +1,346 @@
+<html>
+<head>
+<title>TestNG:  Capacity Planner Application Test Automation Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Capacity Planner Application Test Automation Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 22 16:22:55 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>583 seconds (583877 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC01_LoginPageTest.BeforeLoginPageTitleTest()'><b>BeforeLoginPageTitleTest</b><br>Test class: com.cpt.qa.PageTests.TC01_LoginPageTest<br/>
+<a href="#Output-528382328" onClick='toggleBox("Output-528382328", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-528382328" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-528382328">
+PASS: Before Login page title is : IBM w3id<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.cpt.qa.PageTests.TC01_LoginPageTest@d9e4aa9b</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC01_LoginPageTest.loginPageTest()'><b>loginPageTest</b><br>Test class: com.cpt.qa.PageTests.TC01_LoginPageTest<br>Parameters: nashanke@in.ibm.com, $sonata@1511111<br/>
+<a href="#Output-788973756" onClick='toggleBox("Output-788973756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-788973756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-788973756">
+PASS - Username is entered: nashanke@in.ibm.com<br/>
+PASS - Password is entered: ******<br/>
+PASS : User Logged into the application successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.cpt.qa.PageTests.TC01_LoginPageTest@d9e4aa9b</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest.pageHeadingTextTest()'><b>pageHeadingTextTest</b><br>Test class: com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest<br/>
+<a href="#Output--1813320050" onClick='toggleBox("Output--1813320050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output--1813320050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output--1813320050">
+EMT resource Assigment Page Heading is showing : Capacity Planner<br/>
+PASS: Succesfuly verified EMT resource Assigment Page Heading: Capacity Planner<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest@fe0bae5d</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest.pageHeadingTextTest()'><b>pageHeadingTextTest</b><br>Test class: com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest<br/>
+<a href="#Output--1088352539" onClick='toggleBox("Output--1088352539", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output--1088352539" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output--1088352539">
+PASS: User is clicked on 'Resource Availability Report' Dashboard link<br/>
+PASS - page heading is displaying after login to the application as : MSC - Resource Availability Report<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest@15dc48a2</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest.validateEmtResourceAssignementTest()'><b>validateEmtResourceAssignementTest</b><br>Test class: com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest<br>Parameters: Applications, Swaroop Shastri, No, 26861.0, Ram Yadav, Account Manager, 1.0, Account Manager<br/>
+<a href="#Output-1721822919" onClick='toggleBox("Output-1721822919", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1721822919" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1721822919">
+PASS - User is Successfully selected Applications in 'select practice' dropdown list<br/>
+PASS - User is Successfully selected Swaroop Shastri in 'select Business Owner' dropdown list<br/>
+PASS - User is Successfully selected No in 'select Include pipeLine' dropdown list<br/>
+List of projects are : +<br/>
+List of projects are : 28242,<br/>
+List of projects are : +<br/>
+List of projects are : 28042,<br/>
+List of projects are : +<br/>
+List of projects are : 26861,<br/>
+Project name is displaying as : 26861<br/>
+PASS - User is clicked on project name link in list of projects<br/>
+PASS - User is clicked on project name link in list of projects<br/>
+PASS - User is clicked on project name link capacity planner dummyin list of projects<br/>
+PASS -User is Clicked on change manager text box<br/>
+PASS - User is clicked on Functional manager text box field<br/>
+PASS - User is added Ram Yadav in Functional manager text box field<br/>
+PASS -User is Clicked on change manager text box<br/>
+PASS - User is Sucessfully selecetd: Ram Yadav: in Functional manager<br/>
+PASS -User is Clicked on Select speciality dropdown box link<br/>
+PASS - User is succesfully Selected : Account Manager : speciality in sepciality dropdown list<br/>
+PASS - User is clicked on add resource text box field<br/>
+PASS - User is added 1 number of resources in add resorces text box field<br/>
+PASS - User is Clicked on add resources button<br/>
+PASS - Displaying list of specilaity in table order<br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest@fe0bae5d</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest.validateEmtResourceAssignementTest()'><b>validateEmtResourceAssignementTest</b><br>Test class: com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest<br>Parameters: Applications, Swaroop Shastri, No, 26861.0, Swaroop Shastri, Software Test Specialist, 1.0, Software Test Specialist<br/>
+<a href="#Output-2077768470" onClick='toggleBox("Output-2077768470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2077768470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2077768470">
+PASS - User is Successfully selected Applications in 'select practice' dropdown list<br/>
+PASS - User is Successfully selected Swaroop Shastri in 'select Business Owner' dropdown list<br/>
+PASS - User is Successfully selected No in 'select Include pipeLine' dropdown list<br/>
+List of projects are : +<br/>
+List of projects are : 28242,<br/>
+List of projects are : +<br/>
+List of projects are : 28042,<br/>
+List of projects are : +<br/>
+List of projects are : 26861,<br/>
+Project name is displaying as : 26861<br/>
+PASS - User is clicked on project name link in list of projects<br/>
+PASS - User is clicked on project name link in list of projects<br/>
+PASS - User is clicked on project name link capacity planner dummyin list of projects<br/>
+PASS -User is Clicked on change manager text box<br/>
+PASS - User is clicked on Functional manager text box field<br/>
+PASS - User is added Swaroop Shastri in Functional manager text box field<br/>
+PASS -User is Clicked on change manager text box<br/>
+PASS - User is Sucessfully selecetd: Swaroop Shastri: in Functional manager<br/>
+PASS -User is Clicked on Select speciality dropdown box link<br/>
+PASS - User is succesfully Selected : Software Test Specialist : speciality in sepciality dropdown list<br/>
+PASS - User is clicked on add resource text box field<br/>
+PASS - User is added 1 number of resources in add resorces text box field<br/>
+PASS - User is Clicked on add resources button<br/>
+PASS - Displaying list of specilaity in table order<br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest@fe0bae5d</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest.validateLoggedInUserImageTest()'><b>validateLoggedInUserImageTest</b><br>Test class: com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest<br/>
+<a href="#Output-28636216" onClick='toggleBox("Output-28636216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28636216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28636216">
+PASS- After login to the application,User image icon is displaying at right top corner<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest@15dc48a2</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest.validateResourceAvailabilityReportPageTitleTest()'><b>validateResourceAvailabilityReportPageTitleTest</b><br>Test class: com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest<br/>
+<a href="#Output-1858422982" onClick='toggleBox("Output-1858422982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1858422982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1858422982">
+PASS- Resource avialbility report page title is : CapacityPlanner<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest@15dc48a2</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest.validateResourceAvailabilityReportTest()'><b>validateResourceAvailabilityReportTest</b><br>Test class: com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest<br>Parameters: INDIA, Swaroop Shastri, All, Q2 2020, June , Software Test Specialist, Sudhindra Basavaraju, APR<br/>
+<a href="#Output--641431103" onClick='toggleBox("Output--641431103", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output--641431103" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output--641431103">
+PASS: User is clicked on 'Resource Availability Report' Dashboard link<br/>
+PASS - User is clicked on 'Select Country' dropdown list<br/>
+PASS - User is Successfully selected : INDIA : in 'Select Country' dropdown list<br/>
+PASS - User is clicked on 'Select Manager' dropdown list<br/>
+PASS - User is Successfully selected : Swaroop Shastri : in 'Select Manager' dropdown list<br/>
+PASS - User is clicked on 'Select Practice' dropdown list<br/>
+PASS - User is Successfully selected : All : in 'select Practice' dropdown list<br/>
+PASS: User is clicked on 'Quarter' dropdown list<br/>
+PASS - User is Successfully selected : Q2 2020 : in 'Select Quarter' dropdown list<br/>
+PASS: User is clicked on 'Select Month' dropdownlist<br/>
+PASS - User is Successfully selected : June  : in 'select Months' dropdown list<br/>
+PASS - Selected manager under Total employess count is : 17<br/>
+PASS - Selected manager under Total number of Employees Names in table is : 17<br/>
+PASS - Selected manager under Total Numbers of Employess is: 17 = Selected manager under Total emp names : 17<br/>
+PASS - User is clicked on 'Select Speciality' dropdown list<br/>
+PASS - User is Successfully selected : Software Test Specialist : in 'Select Speciality' dropdown list<br/>
+PASS- Total number of emps count is : 3<br/>
+Emp name is: Mansee Magazine Software Test Specialist<br/>
+PASS- Succesfully verified selected speciality and Emp names in 'Select Speciality' dropdown list<br/>
+Emp name is: Prajna Rao Software Test Specialist<br/>
+PASS- Succesfully verified selected speciality and Emp names in 'Select Speciality' dropdown list<br/>
+Emp name is: Sudhindra Basavaraju Software Test Specialist<br/>
+PASS- Succesfully verified selected speciality and Emp names in 'Select Speciality' dropdown list<br/>
+
+ PASS - After selecting particular speciality Employee name is Showing in Emp table is: Mansee Magazine Software Test Specialist<br/>
+
+ PASS - After selecting particular speciality Employee name is Showing in Emp table is: Prajna Rao Software Test Specialist<br/>
+
+ PASS - After selecting particular speciality Employee name is Showing in Emp table is: Sudhindra Basavaraju Software Test Specialist<br/>
+
+ PASS - Months in availaibity column  is showing as : APR<br/>
+
+ PASS - Months in availaibity percentage row is : 50%<br/>
+PASS - User is  Clicked on Percentage row link<br/>
+
+ PASS - Months in availaibity column  is showing as : MAY<br/>
+
+ PASS - Months in availaibity column  is showing as : JUN<br/>
+
+ PASS - Resource availability Percentage of particular selected Month value on overlay under project detail is: 50%<br/>
+ 
+ PASS - Project Details on the overlay is showing as  : Infrastructure<br/>
+ 
+ PASS - Project Details on the overlay is showing as  : Swaroop - Infra sizing<br/>
+ 
+ PASS - Project Details on the overlay is showing as  : Swaroop Shastri<br/>
+ 
+ PASS - Project Details on the overlay is showing as  : 50 %<br/>
+ 
+ PASS - Project Details on the overlay is showing as  : 0 %<br/>
+ 
+ PASS - Project Details on the overlay is showing as  : 2019-09-01<br/>
+ 
+ PASS - Project Details on the overlay is showing as  : 2020-12-31<br/>
+</div>
+</td>
+<td></td>
+<td>65</td>
+<td>com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest@15dc48a2</td></tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest.validateResourceAvailabilityReportTest()'><b>validateResourceAvailabilityReportTest</b><br>Test class: com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest<br>Parameters: INDIA, Ram Yadav, All, Q2 2020, June , Software Test Specialist, Nagraj S, JUN<br/>
+<a href="#Output-1498758289" onClick='toggleBox("Output-1498758289", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1498758289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1498758289">
+PASS: User is clicked on 'Resource Availability Report' Dashboard link<br/>
+PASS - User is clicked on 'Select Country' dropdown list<br/>
+PASS - User is Successfully selected : INDIA : in 'Select Country' dropdown list<br/>
+PASS - User is clicked on 'Select Manager' dropdown list<br/>
+PASS - User is Successfully selected : Ram Yadav : in 'Select Manager' dropdown list<br/>
+PASS - User is clicked on 'Select Practice' dropdown list<br/>
+PASS - User is Successfully selected : All : in 'select Practice' dropdown list<br/>
+PASS: User is clicked on 'Quarter' dropdown list<br/>
+PASS - User is Successfully selected : Q2 2020 : in 'Select Quarter' dropdown list<br/>
+PASS: User is clicked on 'Select Month' dropdownlist<br/>
+PASS - User is Successfully selected : June  : in 'select Months' dropdown list<br/>
+PASS - Selected manager under Total employess count is : 17<br/>
+PASS - Selected manager under Total number of Employees Names in table is : 17<br/>
+PASS - Selected manager under Total Numbers of Employess is: 17 = Selected manager under Total emp names : 17<br/>
+PASS - User is clicked on 'Select Speciality' dropdown list<br/>
+PASS - User is Successfully selected : Software Test Specialist : in 'Select Speciality' dropdown list<br/>
+PASS- Total number of emps count is : 4<br/>
+Emp name is: Guravareddy Samtimi Software Test Specialist<br/>
+PASS- Succesfully verified selected speciality and Emp names in 'Select Speciality' dropdown list<br/>
+Emp name is: Nagraj S Software Test Specialist<br/>
+PASS- Succesfully verified selected speciality and Emp names in 'Select Speciality' dropdown list<br/>
+Emp name is: Subhashree Pati Software Test Specialist<br/>
+PASS- Succesfully verified selected speciality and Emp names in 'Select Speciality' dropdown list<br/>
+Emp name is: Vasudev Bulbule Software Test Specialist<br/>
+PASS- Succesfully verified selected speciality and Emp names in 'Select Speciality' dropdown list<br/>
+
+ PASS - After selecting particular speciality Employee name is Showing in Emp table is: Guravareddy Samtimi Software Test Specialist<br/>
+
+ PASS - After selecting particular speciality Employee name is Showing in Emp table is: Nagraj S Software Test Specialist<br/>
+
+ PASS - Months in availaibity column  is showing as : APR<br/>
+
+ PASS - Months in availaibity column  is showing as : MAY<br/>
+
+ PASS - Months in availaibity column  is showing as : JUN<br/>
+
+ PASS - Months in availaibity percentage row is : 100%<br/>
+PASS - User is  Clicked on Percentage row link<br/>
+
+ PASS - After selecting particular speciality Employee name is Showing in Emp table is: Subhashree Pati Software Test Specialist<br/>
+
+ PASS - After selecting particular speciality Employee name is Showing in Emp table is: Vasudev Bulbule Software Test Specialist<br/>
+
+ PASS - Resource availability Percentage of particular selected Month value on overlay under project detail is: 100%<br/>
+PASS - Project detials list is showing as blank because of resource is completely available : Nagraj S<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest@15dc48a2</td></tr>
+</table><p>
+</body>
+</html>

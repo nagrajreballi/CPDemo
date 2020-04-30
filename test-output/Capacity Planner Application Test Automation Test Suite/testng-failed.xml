@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Capacity Planner Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.cpt.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="CPT App Test Cases(failed)">
+    <classes>
+      <class name="com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest">
+        <methods>
+          <include name="validateNullValuesTest"/>
+          <include name="TC10tearDown"/>
+          <include name="validateResourceAvailabilityReportTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest -->
+    </classes>
+  </test> <!-- CPT App Test Cases(failed) -->
+</suite> <!-- Failed suite [Capacity Planner Application Test Automation Test Suite] -->

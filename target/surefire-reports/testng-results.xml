@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS: Before Login page title is : IBM w3id]]>
+    </line>
+    <line>
+      <![CDATA[PASS - Username is entered: nashanke@in.ibm.com]]>
+    </line>
+    <line>
+      <![CDATA[PASS - Password is entered: ******]]>
+    </line>
+    <line>
+      <![CDATA[PASS : User Logged into the application successfully.]]>
+    </line>
+  </reporter-output>
+  <suite name="Capacity Planner Application Test Automation Test Suite" duration-ms="38891" started-at="2020-02-10T14:50:16 IST" finished-at="2020-02-10T14:50:55 IST">
+    <groups>
+    </groups>
+    <test name="CPT App Test Cases" duration-ms="38891" started-at="2020-02-10T14:50:16 IST" finished-at="2020-02-10T14:50:55 IST">
+      <class name="com.cpt.qa.PageTests.TC01_LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e]" name="setup" is-config="true" duration-ms="15959" started-at="2020-02-10T14:50:16 IST" finished-at="2020-02-10T14:50:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BeforeLoginPageTitleTest()[pri:1, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e]" name="BeforeLoginPageTitleTest" duration-ms="2026" started-at="2020-02-10T14:50:32 IST" finished-at="2020-02-10T14:50:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Before Login page title is : IBM w3id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e]" name="tearDown" is-config="true" duration-ms="643" started-at="2020-02-10T14:50:34 IST" finished-at="2020-02-10T14:50:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BeforeLoginPageTitleTest status=SUCCESS method=TC01_LoginPageTest.BeforeLoginPageTitleTest()[pri:1, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e] output=PASS: Before Login page title is : IBM w3id]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e]" name="setup" is-config="true" duration-ms="15943" started-at="2020-02-10T14:50:35 IST" finished-at="2020-02-10T14:50:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:2, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e]" name="loginPageTest" duration-ms="3175" started-at="2020-02-10T14:50:51 IST" data-provider="getMAMPTestData" finished-at="2020-02-10T14:50:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nashanke@in.ibm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$sonata@1511111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PASS - Username is entered: nashanke@in.ibm.com]]>
+            </line>
+            <line>
+              <![CDATA[PASS - Password is entered: ******]]>
+            </line>
+            <line>
+              <![CDATA[PASS : User Logged into the application successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e]" name="tearDown" is-config="true" duration-ms="610" started-at="2020-02-10T14:50:54 IST" finished-at="2020-02-10T14:50:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTest status=SUCCESS method=TC01_LoginPageTest.loginPageTest(java.lang.String, java.lang.String)[pri:2, instance:com.cpt.qa.PageTests.TC01_LoginPageTest@fad2148e] output=PASS - Username is entered: nashanke@in.ibm.com]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cpt.qa.PageTests.TC01_LoginPageTest -->
+    </test> <!-- CPT App Test Cases -->
+  </suite> <!-- Capacity Planner Application Test Automation Test Suite -->
+</testng-results>

@@ -1,0 +1,3 @@
+com\cpt\qa\PageTests\TC02_EMTResourceAssignmentPageTest.class
+com\cpt\qa\PageTests\TC03_resourceAvailabilityReportPageTest.class
+com\cpt\qa\PageTests\TC01_LoginPageTest.class

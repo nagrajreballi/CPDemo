@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Capacity Planner Application Test Automation Test Suite">
+
+
+	<listeners>
+<!-- 		<listener class-name="com.cpt.qa.Analyzer.MyTransformer" /> -->
+			<listener class-name="com.cpt.qa.ExtentReportListener.ExtentReporterNG" /> 
+	</listeners>
+
+	<test name="CPT App Test Cases">
+		 <classes>
+    	<class name="com.cpt.qa.PageTests.TC01_LoginPageTest"/>
+    	<class name="com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest"/>
+      	<class name="com.cpt.qa.PageTests.TC03_resourceAvailabilityReportPageTest"/>
+    </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 16 20:18:30 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>311 seconds (311630 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest.validateEmtResourceAssignementTest()'><b>validateEmtResourceAssignementTest</b><br>Test class: com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest<br>Parameters: Applications, Swaroop Shastri, No, 28042.0, Ram Yadav, Software Test Specialist, 1.0, Software Test Specialist, Nagraj S, 50.0, 75.0, 2020.0, Jan, 4.0, 2020.0, Dec, 31.0<br/>
+<a href="#Output-852670023" onClick='toggleBox("Output-852670023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-852670023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-852670023">
+PASS -User clicked on the EMT Resource Assignment tab link<br/>
+List of practices are  0 : APIs<br/>
+List of practices are  1 : Applications<br/>
+PASS - User is Successfully selected Applications in 'select practice' dropdown list<br/>
+List of practices are  2 : Design<br/>
+List of practices are  3 : Marketing Content<br/>
+List of practices are  4 : Optimization<br/>
+List of practices are  5 : Social<br/>
+List of practices are  6 : Technical Content<br/>
+List of practices are  7 : Video<br/>
+List of practices are  8 : Web<br/>
+PASS - User is Successfully selected Swaroop Shastri in 'select Business Owner' dropdown list<br/>
+PASS - User is clicked on dropdownlist of pipeline<br/>
+List of include pipeline are  0 : Yes<br/>
+List of include pipeline are  1 : No<br/>
+PASS - User is Successfully selected No in 'select Include pipeLine' dropdown list<br/>
+List of projects id's are  0 : 28431<br/>
+List of projects id's are  1 : 28391<br/>
+List of projects id's are  2 : 28242<br/>
+List of projects id's are  3 : 28161<br/>
+List of projects id's are  4 : 28042<br/>
+List of projects id's are  5 : 26127<br/>
+List of projects id's are  6 : 25870<br/>
+List of projects id's are  7 : 25042<br/>
+List of projects id's are  8 : 25005<br/>
+List of projects id's are  9 : 24916<br/>
+List of projects id's are  10 : 21246<br/>
+PASS - User is clicked on project name link Swaroop -Social Data System - SDSin list of projects<br/>
+PASS -User is Clicked on change manager text box<br/>
+PASS - User is clicked on Functional manager text box field<br/>
+PASS - User is added Ram Yadav in Functional manager text box field<br/>
+PASS -User is Clicked on change manager text box<br/>
+PASS - User is Sucessfully selecetd: Ram Yadav: in Functional manager<br/>
+PASS -User is Clicked on Select speciality dropdown box link<br/>
+PASS - User is succesfully Selected : Software Test Specialist : speciality in sepciality dropdown list<br/>
+PASS - User is clicked on add resource text box field<br/>
+PASS - User is added 1 number of resources in add resorces text box field<br/>
+PASS - User is Clicked on add resources button<br/>
+PASS - Displaying list of speciality are  0 : Back End Developer<br/>
+PASS - Displaying list of speciality are  1 : Software Test Specialist<br/>
+Number of table rows is: 1 for speciality is: Software Test Specialist<br/>
+User is Clicked on faces in name text box field<br/>
+PASS - User is added name in the text box field: Nagraj S<br/>
+PASS - User is added availability percentage in the text box field : 50<br/>
+PASS - User is Clicked on the start Date picker<br/>
+PASS - User is Clicked in Next arrow link and selected year in start Date picker on overlay  is: 2020<br/>
+PASS - User is selected day in start data picker on overlay is : : 4<br/>
+PASS - User is Clicked on the End Date picker<br/>
+PASS - User is Clicked in Next arrow link and selected year in End Date picker on overlay is: 2020<br/>
+PASS - User is selected month in End data picker on overlay is :Dec<br/>
+PASS - User is selected day in End data picker on overlay is : : 31<br/>
+PASS - User is succesfully saved Emp name in particular speciality list<br/>
+PASS - User is clicked on edit icon in particular speciality list resources<br/>
+PASS - User is updated with new percentage data : 75<br/>
+PASS - User is succesfully saved with new percentage data after updating in particular speciality list<br/>
+PASS -  Assigned/Total number of resources is : 1 Assigned/ 1 Total<br/>
+PASS -  FTE availability is showing in Table column header is : FTE: 1.75<br/>
+PASS -  Number of Resources is showing in Table column header is : No of Resource(s): 2<br/>
+</div>
+</td>
+<td></td>
+<td>274</td>
+<td>com.cpt.qa.PageTests.TC02_EMTResourceAssignmentPageTest@900e5292</td></tr>
+</table><p>
+</body>
+</html>
